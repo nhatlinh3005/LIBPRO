@@ -11,26 +11,26 @@
 
 
 struct user {
-	string user_name;
-	string user_num;
-	string fullname;
-	string birthday;
-	string phone;
-	string email;
-	string job;
-	string ID_student;
-	string ID_human;
+	char user_name[50];
+	char user_num[30];
+	char fullname[50];
+	char birthday[11];
+	char phone[11];
+	char email[100];
+	char job[30];
+	char ID_student[7];
+	char ID_human[11];
 };
 
 struct account {
-	string account_name;
-	string account_pass;
+	char account_name[50];
+	char account_pass[30];
 	int tt_num;
 };
 
 struct tinhtrang {
 	int tt_num;
-	string tt_name;
+	char tt_name[10];
 };
 
 struct Role {
